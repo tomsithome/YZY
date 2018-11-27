@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/OrgManager/Add.cshtml" hash="ffffffffb4e96f50" filehash="1c61260a92a6" flags="110000" assembly="App_Web_ctf0vbgm" type="ASP._Page_Views_OrgManager_Add_cshtml">
+    <filedeps>
+        <filedep name="/Views/OrgManager/Add.cshtml" />
+    </filedeps>
+</preserve>

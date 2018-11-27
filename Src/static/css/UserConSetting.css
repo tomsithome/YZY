@@ -1,0 +1,120 @@
+﻿.btn-success{
+    background-color: #3C85FF;
+}
+/*SettingM页面*/
+#addUserUnSetting{
+    /*display: none;*/
+}
+#addUserUnSetting .modal-header{
+    margin: 0 45px;
+    padding: 15px 0;
+}
+#addUserUnSetting .modal-body .row .control-label{
+    text-align: left;
+    min-width: 130px;
+}
+#addUserUnSetting .form-horizontal{
+    display: flex;
+    display: -ms-flexbox;
+}
+#addUserUnSetting .form-horizontal .help-block,
+#addUserUnSetting .warningMannger .help-block{
+    margin-left: 0;
+}
+#addUserUnSetting .warningMannger{
+    display:flex;
+    display: -ms-flexbox;
+}
+#addUserUnSetting .warningMannger .col-md-10{
+    padding: 0;
+}
+#addUserUnSetting .warningMannger > label.control-label{
+    margin-top: 10px;
+}
+#addUserUnSetting #form .form-control{
+    margin-left: 0;
+}
+#addUserUnSetting .col-md-10 > .form-horizontal > label{
+    line-height: 37px;
+}
+#addUserUnSetting .col-md-10 > .form-horizontal > div.btn-group{
+     padding: 0 15px;
+}
+#addUserUnSetting .col-md-10 > .form-horizontal > div.btn-group> label{
+    margin: 3px 0;
+}
+#addUserUnSetting #form .col-md-10 .form-horizontal .col-md-8 .form-control{
+    min-width: 100px;
+    width: 200px !important;
+    margin-bottom: 5px;
+}
+#addUserUnSetting .col-md-10 > .form-horizontal > .col-md-3 > label,
+#addUserUnSetting .col-md-10 > .row > .col-md-3 > label{
+    line-height: 39px;
+    text-overflow:  ellipsis;
+    word-spacing:  normal;
+    white-space:  normal;
+    /*overflow:  hidden;*/
+    width: 70px;
+    height: 39px;
+    outline: 0;
+}
+#addUserUnSetting .warningMannger .col-md-10 > .row > .col-md-12 > ul{
+    padding: 0 15px;
+}
+#addUserUnSetting #form .warningMannger .sendEmail .row .form-control{
+    /*margin: 0 15px;*/
+}
+#addUserUnSetting #form .warningMannger .sendEmail .row{
+    margin-bottom: 10px;
+}
+#addUserUnSetting #form .warningMannger .sendEmail .row > div:first-child{
+    margin-bottom: 8px;
+}
+#addUserUnSetting .sendEmail{
+    margin-top: 10px;
+}
+
+/*WarningRule页面*/
+#WarningRule .modal-body{
+    display: inline-block;
+    padding: 0;
+}
+
+#WarningRule > .modal-body > .row{margin: 0;padding: 0;}
+#WarningRule > .modal-body > .row > div{margin: 0;padding: 0;}
+#WarningRule > .modal-body > .form-horizontal{border-left: 1px solid #ddd;}
+#WarningRule .modal-body .list-group-item{
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    border-radius: 0;
+}
+
+#WarningRule .modal-body .list-group-item:first-child{
+    color: #909090;
+}
+
+#WarningRule .modal-body > .row .list-group-item:last-child{
+    border-right: 0;
+    border-bottom: 0;
+    color: #fff;
+    margin:  10px 0;
+    border-top:  0;
+}
+
+#WarningRule .modal-body .list-group-item:last-child .btn:first-child{background-color: #3C85FF;margin-right: 10px;border-radius: 4px;}
+#WarningRule .modal-body .list-group-item:last-child .btn:last-child{background-color: #6E6E6E;border-radius: 4px;}
+
+#WarningRule .modal-body .form-control{
+    margin-left: 0;
+}
+#WarningRule .modal-body .form-horizontal .control-label{text-align: left;margin-top: 5px;padding: 0;}
+#WarningRule .modal-body .form-horizontal > .row > div{margin: 0;}
+#WarningRule .modal-body .form-horizontal > .row > div:first-child{margin-top: 10px;}
+#WarningRule .modal-body .row p > .form-control,
+#WarningRule .modal-body .row span > .form-control{width: 80px!important;min-width: 80px;}
+#WarningRule .modal-body .row p{margin: 5px 0;}
+#WarningRule .btnUpdateRule{background-color: #3C85FF;color: #fff;}
+/*#WarningRule .modal-footer{border-top: 0;}*/
+
+input[type=file]:focus, input[type=checkbox]:focus, input[type=radio]:focus{outline: 0;}

@@ -1,0 +1,58 @@
+﻿.tj-blue{background: #663EDB;color: #fff;}
+
+.layui-tab-title{border-bottom: none;margin-bottom:0;height: 42px;padding: 0;position: relative;z-index: 10;}
+.layui-tab-title li{background: #5737B8;color: #fff;margin-right: 10px;border-radius: 3px;border: 1px solid #9F7FE9;min-width: 120px;}
+.layui-tab-title li.layui-this{background: #754EE8;}
+.layui-tab-title li a{color: #fff;text-decoration: none;}
+.layui-tab-title .layui-this{color: #fff;}
+.layui-tab-title .layui-this:after{border: 1px;border: 1px solid;}
+.layui-elem-quote{background: #6133DD;border: none;padding: 2px 15px;margin-bottom: 0;}
+.layui-icon{top: 0;display: inline-table;}
+.layui-layer-content > .layui-icon {display: none;}
+.layui-layer-content > .layui-table-tips-main{overflow: hidden;}
+.layui-row{background: #fff;}
+.layui-tab > .layui-row{margin-bottom: 40px;}
+blockquote button.layui-btn{background: transparent !important;}
+blockquote button.layui-btn:hover{background:#e73d4a !important;}
+.layui-btn+.layui-btn{margin-left: 0;}
+
+.layui-table-view{min-height: 200px;overflow-y: scroll;}
+.layui-table-view .layui-table-body{min-height: 420px;}
+.layui-col-xs12 .layui-table-view .layui-table-body{min-height: 200px;}
+
+
+.layui-table-view .layui-table{width: 100%;}
+.layui-table-view .layui-table td:last-child,.layui-table-view .layui-table th{border-right: none;}
+.layui-table-fixed-l{box-shadow: none;}
+/*.layui-border-box td:last-child .layui-table-cell{display:flex;justify-content: space-around;}*/
+
+.layui-table-page{text-align: right;}
+.layui-table-page .layui-icon{background: linear-gradient(#f7f7f7 10%,#ebebeb 90%);color: #292929;}
+.layui-table-page .layui-laypage .layui-laypage-curr .layui-laypage-em{background: #9ab6fb;}
+.layui-laypage .layui-laypage-curr em{color: #292929;}
+.layui-laypage .layui-laypage-skip{color: #292929;}
+.layui-table-page .layui-laypage button{color: #fff;background: #3C85FF;}
+.layui-table-view select[lay-ignore]{color: #fff;background: #3C85FF;}
+
+.layui-form{margin-top: 0px;}
+.layui-form > div.layui-form-item{margin: 8px 0;}
+.layui-layer-title{font-weight: 600;}
+.layui-btn{min-width: 80px;border-radius: 4px;}
+table.layui-table .layui-btn{border: none;}
+.layui-form-i-last{position: absolute;bottom: 0;right: 20px;text-align: right;}
+.layui-form-i-morelast{position: relative;bottom: 0;right: 20px;float: right;text-align: right;}
+.layui-form-item .layui-form-label{background: transparent;border: none;}
+.layui-form-item .layui-input{border-radius: 4px;}
+.layui-form-item .layui-input{width: 90%;margin-left: 20px;}
+.layui-form-item .layui-input-block .tj-blue{margin-left: 10px;}
+
+.layui-form-switch,.Edit .layui-form-switch{width: 55px;background-color: #1FB302;margin-top: 1px;height: 24px;}
+.layui-form-onswitch,.Edit  .layui-form-onswitch{background-color: #666666;border-color: #666666;margin-left: 18px;}
+.layui-form-switch i,.Edit  .layui-form-switch i{background-color: #ffffff;}
+.layui-form-onswitch i,.Edit .layui-form-onswitch i{left: 33px;}
+.radio .layui-input-block,.Edit .radio .layui-input-block{margin-left: 0;}
+
+.page-bar > .layui-tab-content{margin-bottom: 20px;}
+
+#tree{padding: 0 !important;}
+

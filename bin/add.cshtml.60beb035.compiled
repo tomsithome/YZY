@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/CategoryManager/Add.cshtml" hash="ffffffffb4e96f50" filehash="2eee0ff336ad" flags="110000" assembly="App_Web_s3453bjd" type="ASP._Page_Views_CategoryManager_Add_cshtml">
+    <filedeps>
+        <filedep name="/Views/CategoryManager/Add.cshtml" />
+    </filedeps>
+</preserve>

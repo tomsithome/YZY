@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/UserManager/Add.cshtml" hash="ffffffffb4e96f50" filehash="1970e7ae7266" flags="110000" assembly="App_Web_qexm3njk" type="ASP._Page_Views_UserManager_Add_cshtml">
+    <filedeps>
+        <filedep name="/Views/UserManager/Add.cshtml" />
+    </filedeps>
+</preserve>

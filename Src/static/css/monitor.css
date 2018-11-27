@@ -1,0 +1,323 @@
+/*头部修改start*/
+.monitor_head > .monitor_head_t > .monitor_head_left{
+	text-align: left;
+}
+.monitor_head > .monitor_head_t > .monitor_head_left > img{
+	position: relative;
+    z-index: 100;
+	left: -0.1rem;
+	bottom: 6px;
+    cursor: pointer;
+}
+/*头部修改end*/
+
+/*内容部分start*/
+.monitor_content{
+	position: relative;
+	/*top: 70px;*/
+	padding: 10px 20px;
+}
+.row{
+	margin: 0 auto;
+	background: url(../img/monitor/bg_monitor.png) no-repeat;
+	width: 100%;
+	min-height: 635px;
+	background-size: 100% 100%;
+}
+
+/*内容部分左边start*/
+.monitor_content > .row > .mc_l,
+.monitor_content > .row > .mc_c,
+.monitor_content > .row > .mc_r{
+	padding: 0;
+    position: relative;
+}
+.monitor_content > .row > .mc_l > h2{
+	font-size: 0.35rem;
+	color: #fff;
+	margin: 0.15rem 0 0 0.1rem;
+}
+
+.monitor_content > .row > .mc_l > h2 > .icon-home{
+	background: url(../img/monitor/home_icon.png) no-repeat;
+	background-size: 100% 100%;
+	width: 0.5rem;
+	height: 0.48rem;
+	display: inline-block;
+	position: relative;
+	top: 0.1rem;
+}
+.monitor_content > .row > .mc_l > .infra{
+	display: flex;
+    display: -ms-flexbox;
+	/*margin-top: 0.5rem;*/
+}
+.monitor_content > .row > .mc_l > .infra > h5,
+.monitor_content > .row > .mc_l > .clouds_d > h5{
+	font-size: 0.24rem;
+	color: #02EEF3;
+	margin: 0.3rem 0 0 0.6rem;
+	display: inline-block;
+	letter-spacing: 0.01rem;
+	min-width: 85px;
+}
+.monitor_content > .row > .mc_l > .infra > div{
+	background: url(../img/monitor/infrastracture.png) no-repeat;
+	height: 220px;
+	width: 220px;
+	font-size: 0.4rem;
+	background-size: 100% 100%;
+	color: #fff;
+	display: inline-block;
+	margin-top: 30px;
+	/*margin-left: 0.2rem;*/
+}
+.monitor_content > .row > .mc_l > .infra > div > h4{
+	text-align: center;
+	margin-top: 102px;
+}
+.monitor_content > .row > .mc_l > .clouds_d{
+	display: flex;
+    display: -ms-flexbox;
+	margin-top: 40px;
+}
+.monitor_content > .row > .mc_l > .clouds_d > div{
+	position: relative;
+}
+.monitor_content > .row > .mc_l > .clouds_d #clouds_disk{
+	height: 220px;
+	width: 220px;
+}
+.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r{
+	position: absolute;
+	top: 80px;
+	left: 80px;
+}
+.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > h5{
+	font-size: 13px;
+}
+.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div{
+	position: absolute;
+	left: -10px;
+	width: 80px;
+    top: 20px;
+}
+.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div > h4:nth-child(1){
+	color: #FF3F3F;
+	font-size: 19px;
+	text-align: left;
+}
+.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div > .diver{
+	background: url(../img/monitor/diverLine.png) no-repeat;
+	width: 24px;
+	height: 42px;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0px;
+	left: 30px;
+}
+.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div > h4:nth-child(3){
+	font-size: 17px;
+	text-align: right;
+}
+/*内容部分左边end*/
+
+/*内容部分中间start*/
+.monitor_content > .row > .mc_c > .mcc_scan{
+	width: 266px;
+	height: 266px;
+	margin: 40px auto 50px;
+	background: url(../img/monitor/02-donghua.gif)no-repeat -800px -186px;
+	border: 16px solid rgba(89,63,156,0.8);
+	border-radius: 50%;
+}
+.monitor_content > .row > .mc_c .layui-border-box{
+    border: none;
+    margin-top: 38px;
+}
+.monitor_content > .row > .mc_c .mcc_detail{
+    display: flex;
+    justify-content: space-between;
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
+    color: #FCFCFD;
+    padding: 0.1rem;
+    font-size: 0.2rem;
+    background: #4A3897;
+}
+.monitor_content > .row > .mc_c .mcc_detail > p:last-child{
+    cursor: pointer;
+}
+.monitor_content > .row > .mc_c .mcc_detail > p > span{
+    display: inline-block;
+    background: url(../img/monitor/Throw.gif)no-repeat;
+    height: 18px;
+    background-size:  100%  100%;
+    min-width: 50px;
+    top: 4px;
+    position:  relative;
+}
+.layui-table-body{
+	max-height: 235px;
+    overflow: visible;
+    background: url(../img/bg/bg_table.png)no-repeat;
+    background-size: 100% 100%;
+}
+.layui-table-cell{
+	padding: 0;
+}
+.layui-table-body > table.layui-table{
+    background-color: transparent;
+}
+.layui-table > thead > tr{
+	background: #4472C4;
+	color: #fff;
+}
+.layui-table[lay-even] > tbody > tr:nth-of-type(even){
+	opacity: 0.6;
+	color: #fff;
+	background-color: transparent;
+}
+.layui-table[lay-even] > tbody > tr:nth-of-type(odd){
+	background-color: #fbfcfd;
+}
+.layui-table[lay-even] > thead > tr > th,
+.layui-table[lay-even] > tbody > tr > td{
+	text-align: center;
+	font-size: 0.15rem;    
+}
+.layui-table-box .layui-table-header{
+    border: none;
+    background: #4472C4;
+}
+
+/*内容部分中间end*/
+
+/*内容部分右边start*/
+.monitor_content > .row > .mc_r{
+	padding: 0;
+}
+.monitor_content > .row > .mc_r > .disk_room,
+.monitor_content > .row > .mc_r > .dis_count{
+	position: relative;
+	display:  flex;
+    display: -ms-flexbox;
+	flex-direction: row-reverse;
+    -ms-flex-direction: row-reverse;
+	margin-right: 20px;
+}
+.monitor_content > .row > .mc_r > h3{
+	text-align: right;
+	color:  #02EEF3;
+	font-size: 0.22rem;
+	margin: 0.15rem 0.5rem 0 0;
+}
+.monitor_content > .row > .mc_r > .disk_room > #disk_r{
+	height: 280px;
+	width: 320px;
+}
+.monitor_content > .row > .mc_r > .disk_room > .diskr_c{
+	position: absolute;
+	top: 50%;
+	/*right: 50%;
+	margin-right: -40px;*/
+	margin-top: -20px;
+}
+.monitor_content > .row > .mc_r > .disk_room > .diskr_c > h5{
+	font-size: 14px;
+	width: 80px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.monitor_content > .row > .mc_r > .disk_room > .diskr_c > h4{
+	color: #FFF04B;
+	font-size: 0.35rem;
+	width: 78px;
+	text-align:  center;
+}
+.monitor_content > .row > .mc_r > .disk_room > .diskr_cs{
+	background-color: #5C7DBE;
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	position:  absolute;
+	top: 55px;
+	right: 50%;
+}
+.monitor_content > .row > .mc_r > .dis_count{
+	margin-right: 0;
+}
+.monitor_content > .row > .mc_r > .dis_count > #dis_c{
+	max-width: 390px;
+	height: 320px;
+	width: 6rem;
+}
+/*内容部分右边end*/
+
+/*内容部分end
+
+/*响应式适配*/
+@media screen and (min-width: 1080px) {
+	.monitor_content > .row > .mc_l > .clouds_d > div{
+		margin-top: 60px;
+	}
+}
+@media screen and (max-width: 1380px){
+	.monitor_content > .row > .mc_l > .infra > div,
+	.monitor_content > .row > .mc_l > .clouds_d #clouds_disk{
+		width: 190px;
+		height: 190px;
+	}
+	.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r{
+		top: 70px;
+		left: 65px;
+	}
+	.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div{
+		left: -5px;
+		width: 70px;
+        top: 15px;
+	}
+}
+@media screen and (max-width: 1080px){
+	.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div{
+		left: -5px;
+		width: 70px;
+        top: 15px;
+	}
+	.monitor_content > .row > .mc_l > .infra,
+	.monitor_content > .row > .mc_l > .clouds_d{
+		display: block;
+	}
+	.monitor_content > .row > .mc_l > .infra > div,
+	.monitor_content > .row > .mc_l > .clouds_d > div{
+		margin: 0.3rem 0 0 0.6rem;
+	}
+	.monitor_content > .row > .mc_c > .mcc_scan{
+		width: 220px;
+		height: 220px;
+		background: url(../img/monitor/02-donghua.gif)no-repeat -819px -197px;
+		border: 10px solid rgba(89,63,156,0.8);
+	}
+	.monitor_content > .row > .mc_r > .dis_count > #dis_c{
+		max-width: 300px;
+		height: 280px;
+	}
+	.layui-form {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+}
+@media screen and (min-width: 1680px){
+    .monitor_content > .row > .mc_l > .clouds_d{
+        margin-top: 90px;
+    }
+    .monitor_content > .row > .mc_c > .mcc_scan{
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .monitor_content > .row > .mc_r > .dis_countH{
+        margin-top: 70px;
+    }
+}

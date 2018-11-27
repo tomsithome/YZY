@@ -1,0 +1,168 @@
+﻿body {
+    background-color: #fff;
+    overflow-x: hidden;
+    background: url(/Src/static/img/bg/bg_sys_con.jpg);
+    min-width: 1186px;
+    background-size: 100% 100%;
+}
+input[type="checkbox"]{height: 15px; width: 15px;cursor: pointer;-webkit-appearance: none;background: url(/Src/static/img/icon/check.png) no-repeat center;}
+input[type="checkbox"]:checked{background: url(/Src/static/img/icon/checked.png) no-repeat center;}
+
+.hide{display: none !important;}
+#disapper{opacity: 0;}
+.show{display: block !important;}
+
+.btn-success{background: #6133DD !important;}
+
+.pagination>li>a, .pagination>li>span{border: none;color: #292929;margin-left: 0;margin: 0 5px;}
+.pagination>li>input{border-radius: 5px;}
+.pagination>li>input#txtPage,.pagination>li>a{background: linear-gradient(#f7f7f7 10%,#ebebeb 90%);color: #292929;}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover,
+.pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{background: #9ab6fb;color: #292929;}
+
+.modal-open .modal{display: block; justify-content: center; align-items: center; padding-right: 10px;}
+.modal .modal-header .close{opacity: 1;}
+.page-bar{margin-bottom:0;background:none;height:40px;position:relative;padding: 0 15px;}
+.page-bar .layui-tab-title{border-bottom: none;margin-bottom:0;height: 42px;padding: 0;position: relative;z-index: 10;}
+.page-bar .layui-tab-title li{background: #5737B8;color: #fff;margin-right: 10px;border-radius: 3px;border: 1px solid #9F7FE9;min-width: 120px;}
+.page-bar .layui-tab-title li.layui-this{background: #754EE8;}
+.layui-tab-title .layui-this:after{border: none;}
+.page-bar > .search{position: absolute;top: 0;right: 0;z-index: 10;}
+.page-bar > .search .btn{height: 34px;background-color: #3C137B;}
+.search .input-medium{display: flex !important;display: -ms-flexbox !important;}
+.split-bar{height:1px;background:#F3F3F3}
+.btn-bar{height:auto;margin-bottom:0;border: 1px solid #9F7FE9;position: relative;z-index: 10;}
+.btn-bar >.panel-body{background: #6133DD;padding: 1.9px 15px 6.9px;}
+.page-bar > .layui-tab-content{padding: 0;margin-bottom: 70px;}
+
+.table-bordered>tbody>tr>td{overflow: hidden; text-overflow: ellipsis;}
+
+.btn-group>button{background: transparent;border: none;}
+.layui-icon{
+	background-size: 100% 100%;
+	width: 21px;
+	display:  inline-block;
+	height: 21px;
+	margin-right: 0;
+	position: relative;
+	top: 5px;
+}
+.icon_add{
+	background: url(/Src/static/img/icon/icon_add.png) no-repeat;
+}
+.icon_emptyAlldata{
+	background: url(/Src/static/img/icon/icon_emptyAlldata.png) no-repeat;
+}
+.icon_deliverD{
+	background: url(/Src/static/img/icon/icon_deliverD.png) no-repeat;
+}
+.icon_updata{
+	background: url(/Src/static/img/icon/icon_updata.png) no-repeat;
+}
+.icon_upgrade{
+	background: url(/Src/static/img/icon/icon_upgrade.png) no-repeat;
+}
+.icon_warning{
+	background: url(/Src/static/img/icon/icon_warning.png) no-repeat;
+}
+.icon_deliver{
+	background: url(/Src/static/img/icon/icon_deliver.png) no-repeat;
+}
+.icon_delete{
+	background: url(/Src/static/img/icon/icon_delete.png) no-repeat;
+}
+.icon_edit{
+	background: url(/Src/static/img/icon/icon_edit.png) no-repeat;
+}
+.icon_editD{
+	background: url(/Src/static/img/icon/icon_editD.png) no-repeat;
+}
+.icon_deleteData{
+	background: url(/Src/static/img/icon/icon_deleteData.png) no-repeat;
+}
+.btn-info:hover{
+    background: transparent;
+}
+.table > tbody > tr.seleted{  background-color: #f5f5f5}
+.portlet .table a{margin-right: 20px;color: #125ef8;}
+.min-dialog .ui-dialog-grid {
+    -moz-min-width:125px;
+    -ms-min-width:125px;
+    -o-min-width:125px;
+    -webkit-min-width:125px;
+    min-width:125px;
+}
+.pagination>li>input {
+    position: relative;
+    float: left;
+    padding: 6px 0;
+    line-height: 1.42857;
+    text-decoration: none;
+    color: #337ab7;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    width: 40px;
+    text-align: center;
+}
+.pagination>li>input:focus{outline:none;}
+.td-long {white-space: nowrap;overflow: hidden;-moz-text-overflow: ellipsis;text-overflow: ellipsis;}
+
+.modal-body{padding: 15px 45px;}
+.modal-title{font-weight: 800;}
+.form-control{width: 50%;margin-left: 80px;min-width: 200px;display: inline-block;}
+.control-label{min-width: 120px;}
+.help-block{margin-left: 210px;color: #e73d4a;}
+.radio{display: inline-block;margin-left: 80px;}
+.layui-form .form-control{display: inline-block;}
+
+.modal-body-header{display: flex;justify-content: space-between;display: -ms-flexbox;-ms-flex-pack: justify;padding: 5px 0;border-bottom: 1px solid #EFEFEF;margin-bottom: 20px;}
+.modal-body-header label{padding: 0;}
+.blue{color: blue;}
+.modal-body-footer{border-top: 1px solid #EFEFEF;text-align: right;}
+.modal-body-footer .btn{margin-top: 15px;min-width: 80px;}
+
+/*用户接入中心*/
+.page-bar .page-breadcrumb>li>a, .page-bar .page-breadcrumb>li>span{color: #fff;}
+.page-bar .page-breadcrumb>li>i{color: #fff;}
+.ManagerLogIndex .page-bar{margin-bottom: 25px;}
+.ManagerLogIndex .panel-body .input-medium > input.form-control{margin: 0;}
+.ManagerLogIndex .panel-body .input-medium .btn{height: 34px;}
+
+/*监控中心*/
+.MonitoeHome #keyword{margin: 0;}
+.MonitoeHome .Monitoe_home_search{padding: 0;}
+.MonitoeHome .input-medium .btn{height: 34px;background-color: #4E30A2 !important;}
+.MonitoeHome .Monitoe_home_search #s_province{width: 100px;min-width: 100px;}
+.UnitList{width: 100%;border: none;position: relative;z-index: 1;}
+.Monitor_detail_search{display: none;padding: 0;}
+
+.HomeUnitList .bg-blue{background-color: #663EDB !important;}
+.HomeUnitList .price-table-footer .btn{background-color: #663EDB;color: #fff;}
+
+.GroupList .btn-group > button{background: #663EDB;}
+
+.UnitList1{width: 100%;border: none;position: relative;z-index: 1;min-height: 565px;background: #fff;}
+/*.GroupList .btn-bar > .panel-body{background: linear-gradient(to left, #7371A8, #B197D1, #7371A8)}
+.GroupList .portlet {margin-top: 43px;}
+.GroupList #keyword{margin: 0;}
+.GroupList > .panel{border: none;}
+.GroupList > .panel > .panel-body > .row > div{padding: 0;}
+.GroupList .panel-body .btn{height: 34px;}*/
+
+/*日志管理*/
+.ManagerLogIndex .layui-icon{top: 0 !important;}
+
+
+/*addUser*/
+#formAddUser #AddUserSchool .layui-form-select,.Edit .layui-form-select,#AddUserOpear .layui-form-select{display: none;}
+#formAddUser .layui-form-switch,.Edit .layui-form-switch{width: 55px;background-color: #1FB302;margin-top: 1px;height: 24px;}
+#formAddUser .layui-form-onswitch,.Edit  .layui-form-onswitch{background-color: #666666;border-color: #666666;}
+#formAddUser .layui-form-switch i,.Edit  .layui-form-switch i{background-color: #ffffff;}
+#formAddUser .layui-form-onswitch i,.Edit .layui-form-onswitch i{left: 50px;}
+#formAddUser .radio .layui-input-block,.Edit .radio .layui-input-block{margin-left: 0;}
+#divEdit .layui-input-block{min-width: 350px;}
+
+
+/*addUserUnSetting*/
+#addUserUnSetting .btn-info:hover{background: #3a80d7;}

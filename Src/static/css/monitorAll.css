@@ -1,0 +1,156 @@
+/*大监控部分start*/
+.monitor_content{
+	display: inline-block;
+	width: 100%;
+}
+/*左start*/
+.monitorAll_l{
+	width: 20%;
+	float: left;
+	padding: 0 0.1rem 0 0;
+}
+.monitorAll_l > .monitorAll_lh > h2{
+	font-size: 0.26rem;
+	color: #54BFEE;
+	margin: 0;
+	padding: 0 0.1rem;
+	background: #6353B6;
+	line-height: 70px;
+	font-weight: 800;
+	display: flex;
+	justify-content: space-between;
+    display: -ms-flexbox;
+    -ms-flex-pack: justify;
+}
+.monitorAll_l > .monitorAll_lh > h2 > div{
+	display: inline-block;
+}
+.monitorAll_l > .monitorAll_lh > h2 > div > input{
+	width: 0.2rem;
+	height: 0.2rem;
+	cursor: pointer;
+}
+.monitorAll_l > .monitorAll_lh > h2 > div > span{
+	font-weight: 400;
+	font-size: 0.2rem;
+	color: #02EEF3;
+}
+.monitorAll_l > .monitorAll_lh > h2 > div > .icon-home{
+	background: url(../img/monitor/home_icon.png) no-repeat;
+	background-size: 100% 100%;
+	width: 0.4rem;
+	height: 0.36rem;
+	display: inline-block;
+	position: relative;
+	top: 0.1rem;
+}
+.monitorAll_l > .monitorAll_lh > h2 > div > .icon-back{
+	background: url(../img/icon/backPage.png) no-repeat;
+	background-size: 100% 100%;
+	width: 0.4rem;
+	height: 0.36rem;
+	display: inline-block;
+	position: relative;
+	top: 0.1rem;
+    cursor: pointer;
+}
+.monitorAll_l > .monitorAll_lb{
+	background: url(../img/monitor/bg_monitor_r.png);
+    background-size: 100% 100%;
+	padding: 0.1rem;
+	height: 565px;
+	overflow: auto;
+	opacity: 0.8;
+}
+.monitorAll_l > .monitorAll_lb > h3{
+	font-size: 0.26rem;
+	line-height: 0.5rem;
+	color: #54BFEE;
+	padding-left: 0.4rem;
+	padding-right: 0.4rem;
+	cursor: pointer;
+    display: flex;
+}
+.monitorAll_l > .monitorAll_lb > h3:active{
+	text-decoration: underline;
+}
+.monitorAll_l > .monitorAll_lb > h3 > .layui-icon{
+	background-size: 100% 100%;
+	min-width: 0.3rem;
+	height: 0.3rem;
+	display: inline-block;
+	position: relative;
+	margin-right: 0.1rem;
+	top: 0.05rem;
+}
+.monitorAll_l > .monitorAll_lb > h3 > .icon-hubei{
+	background: url(../img/icon/icon_hubei.png) no-repeat;
+	background-size: 100% 100%;
+}
+.monitorAll_l > .monitorAll_lb > h3 > .icon-hunan{
+	background: url(../img/icon/icon_hunan.png) no-repeat;
+	background-size: 100% 100%;
+}
+.monitorAll_l > .monitorAll_lb > h3 > .icon-anhui{
+	background: url(../img/icon/icon_anhui.png) no-repeat;
+	background-size: 100% 100%;
+}
+.monitorAll_l > .monitorAll_lb > h3 > .icon-china{
+	background: url(../img/icon/icon_C.png) no-repeat;
+	background-size: 100% 100%;
+}
+.layui-table-header{border: none;background: #4472C4;}
+.layui-table-view .layui-table[lay-skin=line]{border-width: 0;}
+/*左end*/
+.monitor_content > .row > .mc_c .layui-border-box{
+    border: none;
+    margin: 10px 0;
+}
+/*右start*/
+.monitorAll_r{
+	width: 80%;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+.monitor_content > .row > .mc_l > .infra > div{
+	margin-top: 55px;
+}
+.row{
+	background: url(../img/monitor/bg_monitor1.png) no-repeat;
+	background-size: 100% 100%;
+}
+/*右end*/
+
+/*大监控部分end*/
+
+/*响应式适配*/
+@media screen and (max-width: 1380px){
+	.monitor_content > .row > .mc_c > .mcc_scan{
+		width: 220px;
+		height: 220px;
+		background: url(../img/monitor/02-donghua.gif)no-repeat -819px -197px;
+		border: 10px solid rgba(89,63,156,0.8);
+        margin: 60px auto 20px;
+	}
+	.monitor_content > .row > .mc_r > .dis_count > #dis_c{
+		max-width: 300px;
+		height: 280px;
+	}
+	.layui-form {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.monitor_content > .row > .mc_l > .clouds_d .cloudsd_r > div{
+		left: -5px;
+		width: 70px;
+	}
+	.monitor_content > .row > .mc_l > .infra,
+	.monitor_content > .row > .mc_l > .clouds_d{
+		display: block;
+	}
+	.monitor_content > .row > .mc_l > .infra > div,
+	.monitor_content > .row > .mc_l > .clouds_d > div{
+		margin: 0.3rem 0 0 0.6rem;
+	}
+}

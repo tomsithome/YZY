@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/Error/NotFind.cshtml" hash="ffffffffb4e96f50" filehash="bc4bb788e4b" flags="110000" assembly="App_Web_35az0csn" type="ASP._Page_Views_Error_NotFind_cshtml">
+    <filedeps>
+        <filedep name="/Views/Error/NotFind.cshtml" />
+    </filedeps>
+</preserve>

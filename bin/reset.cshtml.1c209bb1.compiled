@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="2" virtualPath="/Views/UserManager/Reset.cshtml" hash="ffffffffb4e96f50" filehash="ffffd25e8b9cc9c0" flags="110000" assembly="App_Web_qexm3njk" type="ASP._Page_Views_UserManager_Reset_cshtml">
+    <filedeps>
+        <filedep name="/Views/UserManager/Reset.cshtml" />
+    </filedeps>
+</preserve>
